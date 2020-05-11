@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMI-WPF", "HMI-WPF\HMI-WPF.csproj", "{7057AE84-293F-4B55-A851-86FC8593A9F5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataServer", "DataServer\DataServer.csproj", "{00B61747-87FD-4DC3-8E0A-4D97ADC3EF3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{7057AE84-293F-4B55-A851-86FC8593A9F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7057AE84-293F-4B55-A851-86FC8593A9F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7057AE84-293F-4B55-A851-86FC8593A9F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00B61747-87FD-4DC3-8E0A-4D97ADC3EF3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00B61747-87FD-4DC3-8E0A-4D97ADC3EF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00B61747-87FD-4DC3-8E0A-4D97ADC3EF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00B61747-87FD-4DC3-8E0A-4D97ADC3EF3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
