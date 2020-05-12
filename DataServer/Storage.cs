@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Runtime.InteropServices;
-using System.Text;
+﻿using System.Runtime.InteropServices;
+using System;
 
-namespace DataServer
+namespace DataService
 {
     [StructLayout(LayoutKind.Explicit, Size = 4)]
     public struct Storage
@@ -24,7 +22,7 @@ namespace DataServer
         [FieldOffset(0)]
         public uint DWord;
 
-        public static readonly Storage Empty;
+        public static readonly Storage Empty ;
 
         static Storage()
         {
@@ -72,6 +70,7 @@ namespace DataServer
         public static bool operator !=(Storage x, Storage y)
         {
             return x.Int32 != y.Int32;
-        }
+        } 
     }
+
 }

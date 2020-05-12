@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Runtime.InteropServices;
-using System.Text;
 
-namespace DataServer
+namespace DataService
 {
     [StructLayout(LayoutKind.Sequential)]
     public struct DeviceAddress : IComparable<DeviceAddress>
@@ -43,4 +41,5 @@ namespace DataServer
                 this.Bit < other.Bit ? -1 : 0;
         }
     }
+
 }

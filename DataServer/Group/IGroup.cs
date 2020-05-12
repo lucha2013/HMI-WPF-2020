@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace DataServer
+namespace DataService
 {
     public interface IGroup : IDisposable
     {
@@ -74,4 +73,5 @@ namespace DataServer
     public delegate void ReadCompleteEventHandler(object sender, DataChangeEventArgs e);
 
     public delegate void WriteCompleteEventHandler(object sender, WriteCompleteEventArgs e);
+
 }
