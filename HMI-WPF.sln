@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HMI-WPF", "HMI-WPF\HMI-WPF.csproj", "{7057AE84-293F-4B55-A851-86FC8593A9F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataServer", "DataServer\DataServer.csproj", "{00B61747-87FD-4DC3-8E0A-4D97ADC3EF3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataServer", "DataServer\DataServer.csproj", "{00B61747-87FD-4DC3-8E0A-4D97ADC3EF3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "HardDriver", "HardDriver", "{EF1ACA3D-578F-4E9F-A9C2-C74F6D0B7D6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyenceDrive", "KeyenceDrive\KeyenceDrive.csproj", "{0AE18F37-FEB0-4836-96C6-3D973BFDE42D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{00B61747-87FD-4DC3-8E0A-4D97ADC3EF3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00B61747-87FD-4DC3-8E0A-4D97ADC3EF3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00B61747-87FD-4DC3-8E0A-4D97ADC3EF3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0AE18F37-FEB0-4836-96C6-3D973BFDE42D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0AE18F37-FEB0-4836-96C6-3D973BFDE42D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0AE18F37-FEB0-4836-96C6-3D973BFDE42D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0AE18F37-FEB0-4836-96C6-3D973BFDE42D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0AE18F37-FEB0-4836-96C6-3D973BFDE42D} = {EF1ACA3D-578F-4E9F-A9C2-C74F6D0B7D6C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CBC64AD-54BD-4FED-95C9-5FD04431A7DA}
